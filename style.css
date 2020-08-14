@@ -128,7 +128,7 @@ h1 {
 }
 
 .popup {
-    display: none;
+    display: none; /* zeby nie było widać popupa, dopiero w JS bedzie wywoływany jako display:flex*/
     justify-content: center;
     align-items: center;
     flex-direction: column;
